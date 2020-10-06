@@ -32,20 +32,26 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-
-
-
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#pricing">About </a>
+              <a class="nav-link" href="#features">About </a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link" href="#footer">Contact </a>
             </li>
-            
+
             <li class="nav-item">
-              <a class="nav-link" href="#cta">Projects </a>
+              <a class="nav-link" href="#projects">Projects </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#interests">Skills </a>
+            </li>
+            <li class="nav-item">
+              <form method="get" action="https://drive.google.com/file/d/1N7ayZid5fZw6pMpe30VqdodugiOv9dQQ/view?usp=sharing" target="_blank">
+                 <button class="btn btn-dark btn-sm dbutton" type="submit">Resume</button>
+              </form>
             </li>
 
           </ul>
@@ -56,12 +62,11 @@
 
       <!-- Title -->
 
-      <div class="row">
-        <div class="col-lg-6">
-          <h1>Hello, I am Amogh Sinkar</h1>
-          <button type="button" class="btn btn-dark btn-lg dbutton"> Download Resume</button>
-        </div>
-      </div>
+    <div class="row">
+          <h1>Hello, I am Amogh</h1>
+          <div class="next-row">
+            <p>I love problem solving and writing code that brings changes in real life.</p>
+          </div>
     </div>
   </section>
 
@@ -69,6 +74,10 @@
   <!-- Features -->
 
   <section id="features">
+    <div class="whoami">
+      <h2 id="interest">My Interests</h2>
+    </div>
+
     <div class="row">
       <div class="feat col-lg-4">
         <i class="icon fas fa-check-circle fa-4x"></i>
@@ -77,13 +86,13 @@
       </div>
 
       <div class="feat col-lg-4">
-        <i class="icon fas fa-bullseye fa-4x"></i>
+        <i class="icon fas fa-check-circle fa-4x"></i>
         <h3>Competitive Programming</h3>
-        <p>Problem solving and logic.</p>
+        <p>Problem solving and logic</p>
       </div>
 
       <div class="feat col-lg-4">
-        <i class="icon fas fa-heart fa-4x"></i>
+        <i class="icon fas fa-check-circle fa-4x"></i>
         <h3>Mobile App Development</h3>
         <p>Flutter</p>
       </div>
@@ -91,56 +100,51 @@
   </section>
   </div>
 
-  <!-- Testimonials -->
 
-  <!-- <section id="testimonials">
-    <div id="carouselExampleControls" class="carousel slide" data-ride="false">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-          <img class="testimage" src="images/dog-img.jpg" alt="dog-profile">
-          <em>Pebbles, New York</em>
-        </div>
 
-        <div class="carousel-item">
-          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
-          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-          <em>Beverly, Illinois</em>
-        </div>
+
+  <!-- interests -->
+
+  <section id="interests">
+    <h2 class="myskills">My Skills</h2>
+    <div class="skill-cont">
+      <h3 class="skill">C++</h3>
+      <div class="progress" style="height:36px">
+        <div class="progress-bar" style="width:80%;height:36px">80%</div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-        <span class="carousel-control-next-icon"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
 
+  <div class="skill-cont">
+    <h3 class="skill">JavaScript</h3>
+    <div class="progress" style="height:36px">
+      <div class="progress-bar" style="width:70%;height:36px">70%</div>
+    </div>
+  </div>
 
+  <div class="skill-cont">
+    <h3 class="skill">ReactJS</h3>
+    <div class="progress" style="height:36px">
+      <div class="progress-bar" style="width:65%;height:36px">65%</div>
+    </div>
+  </div>
 
+  <div class="skill-cont">
+    <h3 class="skill">ExpressJS</h3>
+    <div class="progress" style="height:36px">
+      <div class="progress-bar" style="width:60%;height:36px">60%</div>
+    </div>
+  </div>
 
-  </section> -->
-
-
-  <!-- Press -->
-
-  <section id="press">
-    <img class="pressimage" src="images/techcrunch.png" alt="tc-logo">
-    <img class="pressimage" src="images/tnw.png" alt="tnw-logo">
-    <img class="pressimage" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img class="pressimage" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
 
-  <!-- Pricing -->
+  <!-- Projects -->
 
-  <section id="pricing">
+  <section id="projects">
 
     <h2>Projects</h2>
-    <p>These are some of my projects done till date</p>
+    <p>These are some of my projects done till date.</p>
 
 
     <div class="row">
@@ -151,10 +155,11 @@
           </div>
           <div class="card-body">
             <h2>A social website</h2>
-            <p>Frontend- ReactJs</p>
-            <p>Backend- NodeJs and ExpressJs</p>
-            <p>Database- MongoDB</p>
-            <button class="btn btn-lg btn-block btn-dark"type="button">Sign Up</button>
+            <p>Frontend- ReactJS</p>
+            <p>Backend- NodeJS</p>
+            <form method="get" action="https://github.com/amoghsinkar910/Social-Network-App-MERN-stack" target="_blank">
+              <button class="btn btn-lg btn-block btn-dark"type="submit">View</button>
+            </form>
           </div>
       </div>
     </div>
@@ -168,7 +173,9 @@
           <h2>Realtime Chat App</h2>
           <p>Web-Sockets</p>
           <p>ReactJS</p>
-          <button class="btn btn-lg btn-block btn-dark"type="button">Sign Up</button>
+          <form method="get" action="https://github.com/amoghsinkar910/Chat-application" target="_blank">
+            <button class="btn btn-lg btn-block btn-dark"type="submit">View</button>
+          </form>
         </div>
       </div>
 
@@ -177,15 +184,17 @@
     <div class="price col-lg-4 col-med-12">
       <div class="card">
         <div class="card-header">
-          <h3>To-Dolist app</h3>
+          <h3>Statistics app</h3>
         </div>
         <div class="card-body">
-          <h2>Keeper App</h2>
-          <p>Pirority Listing</p>
-          <p>Add items</p>
-          <p>Delete items</p>
-          
-          <button class="btn btn-lg btn-block btn-dark"type="button">Sign Up</button>
+          <h2>YouTube Statistics</h2>
+          <p>Diplays views</p>
+          <p>Displays playlists</p>
+
+
+          <form method="get" action="https://github.com/vishalsalgond/YouTubeAPI" target="_blank">
+            <button class="btn btn-lg btn-block btn-dark"type="submit">View</button>
+          </form>
         </div>
 
       </div>
@@ -201,8 +210,10 @@
   <section id="cta">
 
     <h3 class="footer-text">Get in touch with me.</h3>
-    <button class="dbutton footer-button btn btn-lg btn-dark" type="button">Drop a mail</button>
-    
+    <a href="mailto:amoghsinkar910@gmail.com">
+      <button class="dbutton footer-button btn btn-lg btn-dark" type="button">Drop a mail</button>
+    </a>
+
 
   </section>
 
@@ -210,12 +221,13 @@
   <!-- Footer -->
 
   <footer id="footer">
-    <i class="ficon fab fa-twitter"></i>
-    <i class="ficon fab fa-instagram"></i>
-    <i class="ficon fab fa-facebook-f"></i>
-    <i class="ficon fas fa-envelope"></i>
+    <div class="footer-icons">
+      <a href="https://github.com/amoghsinkar910" target="_blank"><i class="ficon fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/amogh-sinkar-971966192/" target="_blank"><i class="ficon fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/amoghsinkar/" target="_blank"><i class="ficon fab fa-instagram" ></i></a>
+      <a href="#" target="_blank"><i class="ficon fab fa-twitter"></i></a>
+    </div>
     <p>Made with love by Amogh Sinkar</p>
-
   </footer>
 
 

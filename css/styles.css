@@ -21,6 +21,7 @@ h3{
 
 p{
   color: #8f8f8f;
+  font-size: 1.5rem;
   font-weight: 200;
 }
 
@@ -41,24 +42,29 @@ p{
   font-weight: bold;
 }
 
+.next-row{
+  padding-top: 1%;
+}
 .nav-item{
   padding: 0 16px;
 }
-
+.progress-bar{
+  background-color: #55a630;
+}
 .dbutton{
   margin: 5% 3% 5% 0 ;
 }
 
-.iphone-image{
-  width: 60%;
-  transform: rotate(25deg);
-  position:absolute;
-  right: 30%;
 
-
-
+.skill{
+  font-size: 2.5rem;
 }
-
+.myskills{
+  text-align: center;
+}
+.skill-cont{
+  padding: 1.5%;
+}
 #features{
   padding: 7% 15%;
   background-color: white;
@@ -72,14 +78,17 @@ p{
 }
 
 .icon{
-  color: #ef8172;
+  color: #55a630;
   margin-bottom: 1rem;
 }
 
 .icon:hover{
-  color: #ff4c68;
+  color: #aacc00;
 }
 
+.whoami{
+  text-align: center;
+}
 
 
 #testimonials{
@@ -90,11 +99,12 @@ p{
   line-height: 1.5rem;
 
 }
-#press{
-  background-color: #ef8172;
-  text-align: center;
+#interests{
+  background-color: #00263b;
+  padding: 2% 10%;
+  color: white;
 }
-#pricing{
+#projects{
   padding: 100px;
   text-align: center;
 }
@@ -129,6 +139,7 @@ p{
 .footer-button{
 
 }
+
 #footer{
   text-align: center;
   padding: 3% 2%;
@@ -139,13 +150,14 @@ p{
 }
 .ficon{
   margin: 20px 10px;
+  color: #373a40;
 }
 @media(max-width: 1030px){
   #title{
     text-align: center;
   }
-  .iphone-image{
+  /* .iphone-image{
     position: static;
     transform: rotate(0);
-  }
+  } */
 }
