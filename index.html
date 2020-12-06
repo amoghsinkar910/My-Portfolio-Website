@@ -87,19 +87,20 @@
               //   }
               // }
 
-              var i=0;
-              var j=0;
-              var tx="Exploring new technologies";
-              function update()
-              {
-                i=(i+1)%(interests.length);
-                return tx.replace(/Exploring new technologies/,interests[i]);
-              }
-              function change()
-              {
-                var txt=update();
-                document.getElementById("qq").innerHTML=txt;
-              }
+                var i=0;
+                var j=0;
+                var tx="Exploring new technologies";
+                function update()
+                {
+                  i=(i+1)%(interests.length);
+                  return tx.replace(/Exploring new technologies/,interests[i]);
+                }
+                function change()
+                {
+                  var txt=update();
+                  //document.getElementById("qq").innerHTML=txt;
+                  $('#qq')[0].innerHTML=txt;
+                }
             //   var showText = function (target, message, index, interval)
             //   {
             //     if (index < message.length) {
