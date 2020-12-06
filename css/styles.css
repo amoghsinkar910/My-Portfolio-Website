@@ -9,6 +9,17 @@ h1{
   font-weight: 900;
 }
 
+
+/* span{
+  transition: all 0.5s ease;
+  transform: translateY(50px);
+}
+
+span.fade{
+  opacity: 1;
+  color: white;
+} */
+
 h2{
   font-size: 3rem;
 }
@@ -32,6 +43,9 @@ p{
   background-color: #00263b;
   color: white;
 }
+/* .headtext{
+  display: none;
+} */
 .navbar{
   padding: 0 0 4.5rem;
 }
@@ -43,12 +57,14 @@ p{
 
 .next-row{
   padding-top: 1%;
+  padding-bottom: 2%;
 }
 .nav-item{
   padding: 0 16px;
 }
 .progress-bar{
   background-color: #55a630;
+  transition-duration: 3s;
 }
 .dbutton{
   margin: 5% 3% 5% 0 ;
@@ -97,6 +113,14 @@ p{
   color: white;
   line-height: 1.5rem;
 
+}
+.btp
+{
+  margin: 1% 2%;
+}
+.btn
+{
+  margin: 1% 2%;
 }
 #interests{
   background-color: #00263b;
